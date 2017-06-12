@@ -4,7 +4,7 @@
     {% if latest_article_list %}
     <ul>
         {% for article in latest_article_list %}
-        <li><a href="/mysite/{{ article.id }}">{{ article.title }}</a></li>
+        <li><h2><a href="/mysite/{{ article.id }}">{{ article.title }}</a></h2></li>
         {% endfor %}
     </ul>
     {% else %}
