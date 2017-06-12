@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "mysite/header.html" %}
+{% block content %}
+
     {% if latest_article_list %}
     <ul>
         {% for article in latest_article_list %}
@@ -15,5 +11,4 @@
         <p>No articles are available.</p>
     {% endif %}
 
-</body>
-</html>
+{% endblock %}

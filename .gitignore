@@ -1,3 +1,6 @@
 # ignore pyc and database file
 *.pyc
 *.db
+
+# ignore pycharm file
+*.idea/
